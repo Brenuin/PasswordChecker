@@ -17,6 +17,10 @@ class TestCase(unittest.TestCase):
         input = 'ASADAFSDGSDASF'
         expected = False
         self.assertEqual(check_pwd(input), expected)
+    def test4(self):
+        input = 'ASADAFSdsfsdf'
+        expected = False
+        self.assertEqual(check_pwd(input), expected)
 
 
 if __name__ == '__main__':
