@@ -12,6 +12,6 @@ def check_pwd(s):
         return False
     if not any(char in special_characters for char in s):
         return False
-
+"word"
     return True
 
