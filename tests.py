@@ -1,5 +1,5 @@
 import unittest
-from pwd_checker import check_pwd
+from check_pwd import check_pwd
 
 
 class TestCase(unittest.TestCase):
