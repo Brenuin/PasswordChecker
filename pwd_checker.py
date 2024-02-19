@@ -11,4 +11,4 @@ def check_pwd(s):
         return False
 
     return True
-
+"words"

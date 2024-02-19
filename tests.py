@@ -21,7 +21,7 @@ class TestCase(unittest.TestCase):
         input = 'ASADAFSdsfsdf'
         expected = False
         self.assertEqual(check_pwd(input), expected)
-
+"words"
 
 if __name__ == '__main__':
     unittest.main()
