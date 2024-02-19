@@ -30,6 +30,6 @@ class TestCase(unittest.TestCase):
         expected = True
         self.assertEqual(check_pwd(input), expected)
 
-"her"
+
 if __name__ == '__main__':
     unittest.main()
